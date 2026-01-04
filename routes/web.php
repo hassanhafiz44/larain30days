@@ -20,3 +20,7 @@ Route::get('/contact', function (): string {
 Route::get('/api', function (): array {
     return ['foo' => 'bar'];
 });
+
+Route::get('/services', function() {
+    return view('services');
+});
