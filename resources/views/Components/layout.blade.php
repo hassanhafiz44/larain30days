@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>{{ $title }}</title>
 </head>
 
 <body>
     <nav>
-        <x-navlink href="/">Home</x-navlink>
-        <x-navlink href="/about">About</x-navlink>
-        <x-navlink href="/contact">Contact</x-navlink>
+        <x-nav-link href="/">Home</x-nav-link>
+        <x-nav-link href="/about">About</x-nav-link>
+        <x-nav-link href="/contact">Contact</x-nav-link>
     </nav>
 
     {{ $slot }}
